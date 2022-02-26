@@ -1,0 +1,428 @@
+header
+{
+    display: flex;
+    justify-content: space-between;
+    height: 8rem;
+    padding: 1.5rem;
+    background-color: #fdf2e9;
+    color: #555;
+}
+#id_logo img
+{
+    height: 1.4rem;
+       
+}
+#nav_elements
+{
+    display: block;
+    
+}
+ 
+.class_ul 
+{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    align-items: center;
+
+
+}
+ .navlist a
+{
+    list-style:none ;
+    text-decoration: none;
+
+}
+.navlink a
+{
+    list-style: none;
+    text-decoration: none;
+    background-color:#e67e22;
+    padding: 1rem;
+    color:#fff ;
+    border-radius: 9rem;
+}
+
+.sectionhero
+{
+    background-color: #fdf2e9;
+}
+.hero
+{
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+}
+.heading-primary , .headingSecondary, .heading-teritiary
+{
+    line-height: 1.05;
+    letter-spacing: -0.5px;
+    color: #555;
+}
+.heading-primary , .headingSecondary
+{
+font-weight: 600;
+font-size: 2.8rem;
+margin-bottom: 3.2rem;
+}
+
+.heading-teritiary
+{
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin-bottom: 1.8rem;
+    font-weight: 600;
+}
+.hero-description
+{
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 3.8rem;
+}
+
+.btn-start
+{
+    background-color: #e67e22;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    border-radius: 9px;
+    border: none;
+    font-family: inherit;
+    transition: all 0.3s;
+    margin-right: 1.6rem ; 
+}
+
+.btn-learn
+{
+    color: #555;
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.3s;
+}
+.hero-img
+{
+    width: 100%;
+}
+
+.featured-in
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2rem;
+}
+.brands 
+{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    filter: brightness(0);
+    opacity: 50%;
+    margin-top: 3rem;
+}
+
+.brand-img
+{
+   height: 2rem;
+ 
+}
+.sub-heading
+{
+    color: #e67e22;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
+    display: block;
+   
+}
+.text-align-center
+{
+    text-align: center;
+}
+
+.step-num
+{
+    font-size: 5.6rem;
+    font-weight: 600;
+    color: #ddd;
+    margin-bottom: 1.2rem;
+}
+
+.step-description
+{
+    line-height: 1.8;
+    font-size: 1rem
+}
+.step-img-box
+{
+    justify-content: center;
+    display: flex; 
+    position: relative;
+}
+.step-img-box::before,.step-img-box::after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    
+}
+.step-img-box::before
+{
+background-color: #fdf2e9;
+width: 60%;
+padding-bottom: 60%;
+z-index: -2;
+}
+.step-img-box::after
+{
+   background-color: #fae5d3;
+   width: 45%;
+   padding-bottom: 45%;
+   z-index: -1;
+}
+.step-img-box img
+{
+    width: 35%;
+    
+}
+.mealscard
+{
+    border-radius: 1.1rem;
+    overflow: hidden;
+    box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 8%);
+   
+}
+.mealscard:hover
+{
+    transform: translateY(-1rem);
+    transition: linear 0.4s ;
+
+}
+.mealscard ul li
+{
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+
+.mealscard img
+{
+    width: 100%;
+}
+.mealcontent
+{
+    padding: 3.2rem 1.5rem 3.8rem 2.8rem;
+}
+.meal-content-title
+{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.mealcontent ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.mealtags
+{
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap: 0.4rem;
+  
+}
+.tag{
+    
+    display: inline-block;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    color: #333;
+    border-radius: 100px;
+    font-weight: 600;
+}
+.vegetarian
+{
+background-color: #51cf66;
+}
+.vegan
+{
+background-color: #94d82d;;
+}
+.paleo
+{
+background-color:#ffd43b ;
+}
+.list-items
+{
+    list-style: none;
+    line-height: 2.8;
+}
+.list-icon
+{
+    color:#e67e22;
+    font-size: 1.2rem;
+}
+.icon-color
+{
+    color: #e67e22;
+    width: 3rem;
+    height: 2rem;
+}
+.see-all-recipes  
+{
+    text-align: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 3rem;
+}
+
+.see-all-recipes  a
+{
+color: #e67e22;
+font-size: 1rem;
+}
+
+.testimonials
+{
+    padding:22.6rem 0;
+}
+
+.testimonial
+{
+    padding-left: 4rem;
+}
+.testimonial img
+{
+    width: 4.4rem;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+
+}
+blockquote
+{
+    line-height: 2;
+    padding-bottom: 1rem;
+}
+.testimonialgrid
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+    row-gap: 4rem;
+}
+
+.gallery
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+
+}
+.gallery img
+{
+    width: 100%;
+}
+.container-Pricing
+{
+    padding: 3rem 3.2rem;
+    margin: 0 auto;
+
+}
+.Pricingcards
+{
+    padding-bottom: 3rem;
+}
+.pricelistspec
+{
+    list-style: none;
+    line-height: 2;
+}
+.pricing-card-starter
+{
+    justify-self: end;
+    border: 2px solid #fdf2e9;
+   
+}
+.footer-section
+{
+    width: 100%;
+    padding:4rem 0;
+  
+}
+.footer-grid
+{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+.copyright img
+{
+    width: 60%;
+    padding-bottom: 1rem;
+}
+address
+{
+padding-bottom: 2rem;
+
+}
+.socialmedialogos
+{
+font-size: 1.5rem;
+padding-right: 1rem;
+}
+.copyrightparagraph
+{
+    margin: 3rem 0;
+}
+
+.foot-list li
+{
+list-style-type: none;
+}
+.foot-list
+{
+    gap: 1rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.social-links
+{
+list-style: none;
+line-height: 2.4rem;
+display: flex;
+}
+.logo-col img
+{
+width: 60%;
+}
+.footheading
+{
+    font-weight : 500;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+
+}
